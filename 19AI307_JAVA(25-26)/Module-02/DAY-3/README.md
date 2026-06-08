@@ -1,71 +1,106 @@
-# Ex.No:2(D) VARIABLE SCOPE AND CONSTRUCTOR
+# Ex.No:2(C) ACCESS SPECIFIERS
 
 ## QUESTION:
 
-Write a Java program to demonstrate a parameterized constructor.
+Write a Java program to create a class **Person** with private instance variables:
+
+* `name`
+* `age`
+* `country`
+
+Provide **public getter and setter methods** to access and modify these variables.
+Read user input for name, age, and country, set the values using setter methods, and display them using getter methods.
+
+---
 
 ## AIM:
 
-To write a Java program that demonstrates the use of a parameterized constructor to initialize object values.
+To implement a Java program demonstrating the concept of **access specifiers**, specifically encapsulation, by using private variables with public getter and setter methods.
+
+---
 
 ## ALGORITHM :
 
 1. Start the program.
 2. Import the necessary package `java.util`.
-3. Create a class `Employee` with variables `name` and `id`.
-4. Define a parameterized constructor to initialize the variables.
-5. Create a method `display()` to print the employee details.
-6. In the `main` method, create a `Scanner` object to read user input.
-7. Create an `Employee` object by passing the input values to the parameterized constructor.
-8. Call the `display()` method to print the output.
-9. End the program.
+3. Create a class `Person` with private variables: name, age, and country.
+4. Provide public getter and setter methods for accessing and modifying the private variables.
+5. In the main method, read the user inputs for name, age, and country.
+6. Create a `Person` object and assign values using setter methods.
+7. Display the details using getter methods.
+8. End the program.
+
+---
 
 ## PROGRAM:
 
 ```
 /*
-Program to implement a Variable scope and Constructor using Java
-Developed by: SHIVRAJ R 
+Program to implement Access Specifiers using Java
+Developed by: SHIVRAJ R
 RegisterNumber: 212223110051
 */
 ```
 
+---
+
 ## SOURCE CODE:
 
-```java
+```
 import java.util.*;
+public class Person {
+  
+    private String name;
+    private int age;
+    private String country;
 
-class Employee {
-    String name;
-    int id;
-
-    Employee(String name, int id) {
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
         this.name = name;
-        this.id = id;
     }
 
-    void display() {
-        System.out.println("Employee Name: " + name);
-        System.out.println("Employee ID: " + id);
+    public int getAge() {
+        return age;
     }
-}
+    public void setAge(int age) {
+        this.age = age;
+    }
 
-class prog {
+    public String getCountry() {
+        return country;
+    }
+    public void setCountry(String country) {
+        this.country = country;
+    }
+    
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        Employee obj = new Employee(sc.nextLine(), sc.nextInt());
-        obj.display();
+        String name = sc.nextLine();
+        int age = sc.nextInt();
+        sc.nextLine();
+        String country = sc.nextLine();
+        
+        Person obj = new Person();
+        obj.setName(name);
+        obj.setAge(age);
+        obj.setCountry(country);
+        
+        System.out.printf("Person 1 \nName: %s\nAge: %d\nCountry: %s", 
+                           obj.getName(), obj.getAge(), obj.getCountry());
     }
 }
 ```
 
-## OUTPUT:
-<img width="576" height="322" alt="Screenshot 2025-11-24 at 1 29 26 PM" src="https://github.com/user-attachments/assets/6bad796a-67b3-4fda-a246-b7bfd8d5d306" />
+---
 
+## OUTPUT:
+<img width="747" height="437" alt="Screenshot 2025-11-24 at 1 27 11 PM" src="https://github.com/user-attachments/assets/b2b6d89a-6e24-4a2a-97aa-a84c52bde140" />
+
+---
 
 ## RESULT:
 
-Thus, the Java program to demonstrate a parameterized constructor was successfully executed.
-
----
+Thus, the Java program demonstrating access specifiers using getter and setter methods was successfully executed and verified.
 
