@@ -36,8 +36,8 @@ To write a Java program that reads an integer from the user and uses a while loo
 ```
 /*
 Program to implement a Looping Statement using Java
-Developed by: Ponguru Aasrith Sairam
-RegisterNumber: 212223240116
+Developed by: SHIVRAJ R 
+RegisterNumber: 212223110051
 */
 ```
 
