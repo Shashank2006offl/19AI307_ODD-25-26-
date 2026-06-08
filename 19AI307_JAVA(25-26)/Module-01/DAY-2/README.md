@@ -37,8 +37,8 @@ To write a Java program that reads a DNA number and uses nested conditional stat
 ```
 /*
 Program to implement a conditional statement using Java
-Developed by: Ponguru Aasrith Sairam
-RegisterNumber: 212223240116
+Developed by: SHIVRAJ R 
+RegisterNumber: 212223110051
 */
 ```
 
