@@ -24,8 +24,8 @@ To write a Java program that demonstrates exception handling by catching a NullP
 ```
 /*
 Program to implement a Exception Handling using Java
-Developed by: SHIVRAJ R
-RegisterNumber: 212223110051
+Developed by: SHASHANK R 
+RegisterNumber: 212223230205
 */
 ```
 
