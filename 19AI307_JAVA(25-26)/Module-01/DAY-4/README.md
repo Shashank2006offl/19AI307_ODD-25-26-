@@ -35,8 +35,8 @@ To write a Java program that reads an array of integers and counts how many elem
 ```
 /*
 Program to implement a Array concept using Java
-Developed by: SHIVRAJ R 
-RegisterNumber: 212223110051
+Developed by: SHASHANK R 
+RegisterNumber: 212223230205
 */
 ```
 
