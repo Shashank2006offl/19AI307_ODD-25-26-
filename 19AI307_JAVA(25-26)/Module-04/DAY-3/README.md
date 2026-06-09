@@ -30,8 +30,8 @@ To write a Java program that demonstrates Composition by creating Book objects i
 ```
 /*
 Program to implement a Composition Concepts in Java
-Developed by: SHIVRAJ R
-RegisterNumber:  212223110051
+Developed by: SHASHANK R 
+RegisterNumber: 212223230205
 */
 ```
 
