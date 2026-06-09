@@ -50,8 +50,8 @@ To write a Java program that reads a hero's attributes and evaluates logical con
 ```
 /*
 Program to implement variables and Operators using Java
-Developed by: SHIVRAJ R 
-RegisterNumber: 212223110051
+Developed by: SHASHANK R 
+RegisterNumber: 212223230205
 */
 ```
 
