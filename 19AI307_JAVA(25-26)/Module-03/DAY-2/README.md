@@ -32,8 +32,8 @@ To write a Java program that demonstrates **polymorphism** by overriding the `sp
 ```
 /*
 Program to implement Polymorphism using Java
-Developed by: SHIVRAJ R
-RegisterNumber: 212223110051
+Developed by: SHASHANK R 
+RegisterNumber: 212223230205
 */
 ```
 
