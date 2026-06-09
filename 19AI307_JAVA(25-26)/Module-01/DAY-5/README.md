@@ -34,8 +34,8 @@ To write a Java program that reads the base and exponent values from the user an
 ```
 /*
 Program to implement a Strings and Math Function using Java
-Developed by: SHIVRAJ R 
-RegisterNumber: 212223110051
+Developed by: SHASHANK R 
+RegisterNumber: 212223230205
 */
 ```
 
