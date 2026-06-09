@@ -45,8 +45,8 @@ To develop a Java program that demonstrates multithreading with synchronization 
 ```
 /*
 Program to implement a Composition Concepts in Java
-Developed by: SHIVRAJ R
-RegisterNumber:  212223110051
+Developed by: SHASHANK R 
+RegisterNumber: 212223230205
 */
 ```
 
