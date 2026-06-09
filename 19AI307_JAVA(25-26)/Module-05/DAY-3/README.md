@@ -26,8 +26,8 @@ To write a program that accepts user input, stores it in a file, and displays on
 ```
 /*
 Program to implement File Handling using Java
-Developed by: SHIVRAJ R
-RegisterNumber:  212223110051
+Developed by: SHASHANK R 
+RegisterNumber: 212223230205
 */
 ```
 
