@@ -44,8 +44,8 @@ To write a Java program that implements grading strategies using interfaces by d
 ```
 /*
 Program to implement Interface using Java
-Developed by: SHIVRAJ R
-RegisterNumber: 212223110051
+Developed by: SHASHANK R 
+RegisterNumber: 212223230205
 */
 ```
 
